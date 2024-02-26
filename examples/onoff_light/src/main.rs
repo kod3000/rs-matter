@@ -34,7 +34,7 @@ use rs_matter::error::Error;
 use rs_matter::mdns::builtin::{
     MDNS_IPV4_BROADCAST_ADDR, MDNS_IPV6_BROADCAST_ADDR, MDNS_SOCKET_BIND_ADDR,
 };
-use rs_matter::mdns::MdnsService;
+use rs_matter::mdns::builtin::MdnsService;
 use rs_matter::persist::Psm;
 use rs_matter::secure_channel::spake2p::VerifierData;
 use rs_matter::transport::core::{PacketBuffers, MATTER_SOCKET_BIND_ADDR};
